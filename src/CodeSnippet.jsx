@@ -9,7 +9,7 @@ export const CodeSnippet = () => {
         <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Store your code snippets and save time.</p>
       </div>
 
-      <SearchResults />
+      {/* <SearchResults /> */}
       <SnippetAdder/>
     </div>
   )
