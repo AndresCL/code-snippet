@@ -1,7 +1,6 @@
-import { SearchResults } from './ui/SearchResults';
-import { SnippetAdder } from './ui/SnippetAdder';
+import { SearchResults } from '../../ui/components';
 
-export const CodeSnippet = () => {
+export const SnippetsListPage = () => {
   return (
     <div className="flex flex-col items-center justify-start py-8 backdrop-opacity-95 w-full h-screen bg-[url('https://img.freepik.com/free-vector/white-background-with-triangle-patterns_1017-18410.jpg?w=1800&t=st=1673715601~exp=1673716201~hmac=0048740336a5120ae6b2cfa649e2202a8291cfa43ea01c30e5357b431560c2e0')] bg-cover bg-center">
       <div className="w-6/12 mb-6">
@@ -9,8 +8,7 @@ export const CodeSnippet = () => {
         <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Store your code snippets and save time.</p>
       </div>
 
-      {/* <SearchResults /> */}
-      <SnippetAdder/>
+      <SearchResults />
     </div>
   )
 }

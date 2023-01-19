@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from 'react-router';
 import queryString from 'query-string';
-import { useForm } from './hooks/useForm';
+import { useForm } from '../hooks/useForm';
 
 export const SearchBar = () => {
 
